@@ -1,5 +1,5 @@
 // Theme Specific Variables
-$primaryColor: #4453DB;
+$primaryColor: #4F60FA;
 $primaryLightColor: #E2E5FD;
 $primaryDarkColor: #2A2A5F;
 $primaryDarkerColor: #2A2A5F;
@@ -33,18 +33,13 @@ $colors: (
 @import './variables/_misc';
 
 :root {
-    font-family: 'NotoSansJP', Helvetica, Arial, sans-serif;
-    --font-family: 'NotoSansJP', Helvetica, Arial, sans-serif;
+    // The rest of the required variables have been imported to the app
     --surface-a:#ffffff;
     --surface-b:#f8f9fa;
     --surface-c:#e9ecef;
     --surface-d:#dee2e6;
     --surface-e:#ffffff;
     --surface-f:#ffffff;
-    --text-color:#495057;
-    --text-color-secondary:#6c757d;
-    --primary-color:#2196F3;
-    --primary-color-text:#ffffff;
     --surface-0: #ffffff;
     --surface-50: #FAFAFA;
     --surface-100: #F5F5F5;
@@ -66,18 +61,5 @@ $colors: (
     --gray-700: #616161;
     --gray-800: #424242;
     --gray-900: #212121;
-    --content-padding:#{$panelContentPadding};
-    --inline-spacing:#{$inlineSpacing};
-    --border-radius:#{$borderRadius};
-    --surface-ground:#f8f9fa;
-    --surface-section:#ffffff;
-    --surface-card:#ffffff;
-    --surface-overlay:#ffffff;
-    --surface-border:#dee2e6;
-    --surface-hover:#e9ecef;
-    --focus-ring: #{$focusShadow};
-    --maskbg: #{$maskBg};
-    --highlight-bg: #{$highlightBg};
-    --highlight-text-color: #{$highlightTextColor};
     color-scheme: light;
 }
