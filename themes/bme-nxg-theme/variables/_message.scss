@@ -1,14 +1,14 @@
 /// Margin of a message
 /// @group message
-$messageMargin: 1rem 0;
+$messageMargin: 0;
 
 /// Padding of a message
 /// @group message
-$messagePadding: 1rem 1.5rem;
+$messagePadding: 16px;
 
 /// Border width of a message
 /// @group message
-$messageBorderWidth: 0 0 0 4px;
+$messageBorderWidth: 0 0 0 8px;
 
 /// Font size of a message icon
 /// @group message
@@ -80,64 +80,64 @@ $toastDetailMargin: $inlineSpacing 0 0 0;
 
 /// Background of an info message
 /// @group message
-$infoMessageBg: #039BE5;
+$infoMessageBg: var(--information-color-background);
 
 /// Border of an info message
 /// @group message
-$infoMessageBorder: solid #027cb7;
+$infoMessageBorder: solid var(--information-color);
 
 /// Text color of an info message
 /// @group message
-$infoMessageTextColor: #ffffff;
+$infoMessageTextColor: var(--information-color);
 
 /// Icon color of an info message
 /// @group message
-$infoMessageIconColor: #ffffff;
+$infoMessageIconColor: var(--information-color);
 
 /// Background of a success message
 /// @group message
-$successMessageBg: #43A047;
+$successMessageBg: var(--success-color-background);
 
 /// Border of a success message
 /// @group message
-$successMessageBorder: 0 none;
+$successMessageBorder: solid var(--success-color);
 
 /// Text color of a success message
 /// @group message
-$successMessageTextColor: #ffffff;
+$successMessageTextColor: var(--success-color);
 
 /// Icon color of a success message
 /// @group message
-$successMessageIconColor: #ffffff;
+$successMessageIconColor: var(--success-color);
 
 /// Background of a warning message
 /// @group message
-$warningMessageBg: #FFB300;
+$warningMessageBg: var(--warning-color-background);
 
 /// Border of a warning message
 /// @group message
-$warningMessageBorder: 0 none;
+$warningMessageBorder: solid var(--warning-color-background);
 
 /// Text color of a warning message
 /// @group message
-$warningMessageTextColor: $textColor;
+$warningMessageTextColor: var(--warning-color);
 
 /// Icon color of a warning message
 /// @group message
-$warningMessageIconColor: $textColor;
+$warningMessageIconColor: var(--warning-color);
 
 /// Background of an error message
 /// @group message
-$errorMessageBg: #E53935;
+$errorMessageBg: var(--error-color-background);
 
 /// Border of an error message
 /// @group message
-$errorMessageBorder: 0 none;
+$errorMessageBorder: solid var(--error-color);
 
 /// Text color of an error message
 /// @group message
-$errorMessageTextColor: #ffffff;
+$errorMessageTextColor: var(--error-color);
 
 /// Icon color of an error message
 /// @group message
-$errorMessageIconColor: #ffffff;
+$errorMessageIconColor: var(--error-color);
