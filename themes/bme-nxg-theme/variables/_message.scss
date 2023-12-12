@@ -8,7 +8,7 @@ $messagePadding: 16px;
 
 /// Border width of a message
 /// @group message
-$messageBorderWidth: 0 0 0 8px;
+$messageBorderWidth: 1px;
 
 /// Font size of a message icon
 /// @group message
@@ -88,7 +88,7 @@ $infoMessageBorder: solid var(--information-color);
 
 /// Text color of an info message
 /// @group message
-$infoMessageTextColor: var(--information-color);
+$infoMessageTextColor: var(--text-color-secondary);
 
 /// Icon color of an info message
 /// @group message
@@ -104,7 +104,7 @@ $successMessageBorder: solid var(--success-color);
 
 /// Text color of a success message
 /// @group message
-$successMessageTextColor: var(--success-color);
+$successMessageTextColor: var(--text-color-secondary);
 
 /// Icon color of a success message
 /// @group message
@@ -120,7 +120,7 @@ $warningMessageBorder: solid var(--warning-color);
 
 /// Text color of a warning message
 /// @group message
-$warningMessageTextColor: var(--warning-color);
+$warningMessageTextColor: var(--text-color-secondary);
 
 /// Icon color of a warning message
 /// @group message
@@ -136,7 +136,7 @@ $errorMessageBorder: solid var(--error-color);
 
 /// Text color of an error message
 /// @group message
-$errorMessageTextColor: var(--error-color);
+$errorMessageTextColor: var(--text-color-secondary);
 
 /// Icon color of an error message
 /// @group message

@@ -11,7 +11,8 @@
 
             .p-node-toggler {
                 i {
-                    color: darken($highlightBg, 25%);
+                    // color: darken($highlightBg, 25%); //overwrite
+                    color: $highlightBg;
                 }
             }
         }

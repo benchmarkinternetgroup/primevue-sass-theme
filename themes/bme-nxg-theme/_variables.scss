@@ -1,5 +1,5 @@
 // Theme Specific Variables
-$primaryColor: #4F60FA;
+$primaryColor: var(--primary-color);
 $primaryLightColor: #E2E5FD;
 $primaryDarkColor: #2A2A5F;
 $primaryDarkerColor: #2A2A5F;
@@ -16,8 +16,7 @@ $colors: (
     "orange": #F57C00,
     "bluegray": #607D8B,
     "purple": #9C27B0,
-    "red": #FF4032,
-    "primary": $primaryColor
+    "red": #FF4032
 );
 
 // Mandatory Designer Variables
