@@ -185,7 +185,7 @@ $checkboxActiveBg: $primaryColor;
 
 /// Icon color of a selected checkbox
 /// @group form
-$checkboxIconActiveColor: var(--text-color-variant);
+$checkboxIconActiveColor: var(--surface-ground);
 
 /// Background of a selected checkbox in hover state
 /// @group form
@@ -193,7 +193,7 @@ $checkboxActiveHoverBg: var(--primary-color);
 
 /// Icon color of a selected checkbox in hover state
 /// @group form
-$checkboxIconActiveHoverColor: var(--text-color-variant);
+$checkboxIconActiveHoverColor: var(--surface-ground);
 
 /// Border color of a selected checkbox in hover state
 /// @group form
@@ -225,7 +225,7 @@ $radiobuttonActiveBg: $primaryColor;
 
 /// Icon color of a selected radiobutton
 /// @group form
-$radiobuttonIconActiveColor: var(--text-color-variant);
+$radiobuttonIconActiveColor: var(--surface-ground);
 
 /// Background of a selected radiobutton in hover state
 /// @group form
@@ -233,7 +233,7 @@ $radiobuttonActiveHoverBg: $primaryDarkerColor;
 
 /// Icon color of a selected radiobutton in hover state
 /// @group form
-$radiobuttonIconActiveHoverColor: var(--text-color-variant);
+$radiobuttonIconActiveHoverColor: var(--surface-ground);
 
 /// Border color of a selected radiobutton in hover state
 /// @group form
