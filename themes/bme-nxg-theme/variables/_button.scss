@@ -340,7 +340,7 @@ $toggleButtonBg: #ffffff;
 
 /// Border of a toggle button
 /// @group button
-$toggleButtonBorder: 1px solid #ced4da;
+$toggleButtonBorder: 1px solid var(--surface-border);
 
 /// Text color of a toggle button
 /// @group button
