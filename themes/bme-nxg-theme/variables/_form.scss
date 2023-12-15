@@ -341,7 +341,7 @@ $calendarPadding: .5rem;
 
 /// Background of a calendar
 /// @group form
-$calendarBg:#ffffff;
+$calendarBg:var(--surface-ground);
 
 /// Background of an inlime calendar
 /// @group form
@@ -349,7 +349,7 @@ $calendarInlineBg:$calendarBg;
 
 /// Text color of a calendar
 /// @group form
-$calendarTextColor: $textColor;
+$calendarTextColor: var(--text-color);
 
 /// Border of an inline calendar
 /// @group form
@@ -365,7 +365,7 @@ $calendarHeaderPadding: .5rem;
 
 /// Background of a calendar header
 /// @group form
-$calendarHeaderBg: #ffffff;
+$calendarHeaderBg: var(--surface-ground);
 
 /// Background of an inline calendar header
 /// @group form
@@ -377,7 +377,7 @@ $calendarHeaderBorder: 1px solid #dee2e6;
 
 /// Text color of a calendar header
 /// @group form
-$calendarHeaderTextColor: $textColor;
+$calendarHeaderTextColor: var(--text-color);
 
 /// Font weight of a calendar header
 /// @group form
@@ -425,7 +425,7 @@ $calendarCellDateTodayBorderColor: transparent;
 
 /// Text color of a calendar date cell indicating today
 /// @group form
-$calendarCellDateTodayTextColor: $textColor;
+$calendarCellDateTodayTextColor: var(--text-color);
 
 /// Padding of the calendar button bar
 /// @group form
