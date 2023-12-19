@@ -1,6 +1,6 @@
 /// Padding of an input field, must be defined with a shorthand for vertical and horizontal values e.g. ".5rem .5rem"
 /// @group form
-$inputPadding: 8px 1rem;
+$inputPadding: 7px 1rem;
 
 /// Background of an input field
 /// @group form
@@ -36,7 +36,7 @@ $inputErrorBorderColor: var(--error-color);
 
 /// Text color of a placeholder
 /// @group form
-$inputPlaceholderTextColor: #6c757d;
+$inputPlaceholderTextColor: var(--text-color-secondary);
 
 /// Background of a filled input
 /// @group form
