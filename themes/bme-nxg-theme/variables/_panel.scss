@@ -48,7 +48,7 @@ $panelContentBorder: 1px solid #dee2e6;
 
 /// Background for the content section of a panel
 /// @group panel
-$panelContentBg: #ffffff;
+$panelContentBg: var(--surface-ground);
 
 /// Background for the striped row.
 /// @group panel
@@ -60,7 +60,7 @@ $panelContentTextColor: $textColor;
 
 /// Padding for the content section of a panel
 /// @group panel
-$panelContentPadding: 1rem;
+$panelContentPadding: 0;
 
 /// Border for the footer section of a panel
 /// @group panel
@@ -68,7 +68,7 @@ $panelFooterBorder: 1px solid #dee2e6;
 
 /// Background for the footer section of a panel
 /// @group panel
-$panelFooterBg: #ffffff;
+$panelFooterBg: var(--surface-ground);
 
 /// Text color for the footer section of a panel
 /// @group panel
@@ -164,7 +164,7 @@ $tabviewNavBorderWidth: 0 0 2px 0;
 
 /// Background for a parent element containing all the headers of a tabview
 /// @group panel
-$tabviewNavBg: #ffffff;
+$tabviewNavBg: var(--surface-ground);
 
 /// Spacing between tabview headers
 /// @group panel
@@ -184,7 +184,7 @@ $tabviewHeaderBorderColor: transparent transparent var(--surface) transparent;
 
 /// Background of a tabview header
 /// @group panel
-$tabviewHeaderBg: #ffffff;
+$tabviewHeaderBg: var(--surface-ground);
 
 /// Text color of a tabview header
 /// @group panel
@@ -204,7 +204,7 @@ $tabviewHeaderMargin: 0 0 -2px 0;
 
 /// Background of a tabview header in hover state
 /// @group panel
-$tabviewHeaderHoverBg: #ffffff;
+$tabviewHeaderHoverBg: var(--surface-ground);
 
 /// Border of a tabview header in hover state
 /// @group panel
@@ -216,7 +216,7 @@ $tabviewHeaderTextHoverColor: var(--text-color);
 
 /// Background of a tabview header in selected state
 /// @group panel
-$tabviewHeaderActiveBg: #ffffff;
+$tabviewHeaderActiveBg: var(--surface-ground);
 
 /// Border of a tabview header in selected state
 /// @group panel
