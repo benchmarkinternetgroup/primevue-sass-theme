@@ -156,7 +156,7 @@ $accordionContentPadding: $panelContentPadding;
 
 /// Border for a parent element containing all the headers of a tabview
 /// @group panel
-$tabviewNavBorder: 1px solid #dee2e6;
+$tabviewNavBorder: 2px solid transparent;
 
 /// Border width for a parent element containing all the headers of a tabview
 /// @group panel
@@ -172,7 +172,7 @@ $tabviewHeaderSpacing: 0;
 
 /// Border of a tabview header
 /// @group panel
-$tabviewHeaderBorder: solid #dee2e6;
+$tabviewHeaderBorder: solid var(--surface);
 
 /// Border width of a tabview header
 /// @group panel
@@ -180,7 +180,7 @@ $tabviewHeaderBorderWidth: 0 0 2px 0;
 
 /// Border color of a tabview header
 /// @group panel
-$tabviewHeaderBorderColor: transparent transparent #dee2e6 transparent;
+$tabviewHeaderBorderColor: transparent transparent var(--surface) transparent;
 
 /// Background of a tabview header
 /// @group panel
@@ -196,7 +196,7 @@ $tabviewHeaderFontWeight: $panelHeaderFontWeight;
 
 /// Padding of a tabview header
 /// @group panel
-$tabviewHeaderPadding: $panelHeaderPadding;
+$tabviewHeaderPadding: 8px 16px;
 
 /// Margin of a tabview header
 /// @group panel
@@ -208,11 +208,11 @@ $tabviewHeaderHoverBg: #ffffff;
 
 /// Border of a tabview header in hover state
 /// @group panel
-$tabviewHeaderHoverBorderColor: #9ba2aa;
+$tabviewHeaderHoverBorderColor: var(--surface-border);
 
 /// Text color of a tabview header in hover state
 /// @group panel
-$tabviewHeaderTextHoverColor: $textSecondaryColor;
+$tabviewHeaderTextHoverColor: var(--text-color);
 
 /// Background of a tabview header in selected state
 /// @group panel
@@ -220,11 +220,11 @@ $tabviewHeaderActiveBg: #ffffff;
 
 /// Border of a tabview header in selected state
 /// @group panel
-$tabviewHeaderActiveBorderColor: $primaryColor;
+$tabviewHeaderActiveBorderColor: var(--secondary-color);
 
 /// Text color of a tabview header in selected state
 /// @group panel
-$tabviewHeaderTextActiveColor: $primaryColor;
+$tabviewHeaderTextActiveColor: var(--text-color);
 
 /// Border for content section of a tabview tab
 /// @group panel
