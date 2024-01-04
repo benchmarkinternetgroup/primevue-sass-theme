@@ -1,14 +1,14 @@
 /// Border color of a panel header
 /// @group panel
-$panelHeaderBorderColor: #dee2e6;
+$panelHeaderBorderColor: var(--surface-border);
 
 /// Border of a panel header
 /// @group panel
-$panelHeaderBorder: 1px solid #dee2e6;
+$panelHeaderBorder: 1px solid var(--surface-border);
 
 /// Background of a panel header
 /// @group panel
-$panelHeaderBg: #f8f9fa;
+$panelHeaderBg: var(--surface-ground);
 
 /// Text color of a panel header
 /// @group panel
@@ -84,11 +84,11 @@ $accordionSpacing: 0;
 
 /// Border of an accordion panel header
 /// @group panel
-$accordionHeaderBorder: $panelHeaderBorder;
+$accordionHeaderBorder: var(--surface-border);
 
 /// Background of an accordion panel header
 /// @group panel
-$accordionHeaderBg: $panelHeaderBg;
+$accordionHeaderBg: var(--surface-ground);
 
 /// Text color of an accordion panel header
 /// @group panel
