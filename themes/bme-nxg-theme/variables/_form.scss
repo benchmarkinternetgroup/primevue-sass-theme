@@ -92,7 +92,7 @@ $inputListItemTextColor: var(--text-color);
 
 /// Hover state background for an individual itrem of an input list
 /// @group form
-$inputListItemHoverBg: var(--primary-color-surface);
+$inputListItemHoverBg: var(--success-color-background);
 
 /// Hover state text color for an individual itrem of an input list
 /// @group form
@@ -413,7 +413,7 @@ $calendarCellDateBorder:1px solid transparent;
 
 /// Background of a calendar date cell in hover state
 /// @group form
-$calendarCellDateHoverBg: #e9ecef;
+$calendarCellDateHoverBg: var(--primary-color-surface);
 
 /// Background of a calendar date cell indicating today
 /// @group form

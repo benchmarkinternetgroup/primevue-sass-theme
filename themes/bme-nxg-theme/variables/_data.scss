@@ -4,7 +4,7 @@ $paginatorBg: var(--surface-ground);
 
 /// Text color of a paginator
 /// @group data
-$paginatorTextColor: $textSecondaryColor;
+$paginatorTextColor: var(--text-color-secondary);
 
 /// Border of a paginator
 /// @group data
@@ -16,7 +16,7 @@ $paginatorBorderWidth: 0;
 
 /// Padding of a paginator
 /// @group data
-$paginatorPadding: .5rem 1rem;
+$paginatorPadding: 16px 16px;
 
 /// Width of a paginator element
 /// @group data
@@ -36,11 +36,11 @@ $paginatorElementBorder: 0 none;
 
 /// Icon color of a paginator element
 /// @group data
-$paginatorElementIconColor: $textSecondaryColor;
+$paginatorElementIconColor: var(--text-color-secondary);
 
 /// Background of a paginator element in hover state
 /// @group data
-$paginatorElementHoverBg: #e9ecef;
+$paginatorElementHoverBg: var(--primary-color-surface);
 
 /// Border color of a paginator element in hover state
 /// @group data
@@ -48,15 +48,15 @@ $paginatorElementHoverBorderColor: transparent;
 
 /// Icon color of a paginator element in hover state
 /// @group data
-$paginatorElementIconHoverColor: $textSecondaryColor;
+$paginatorElementIconHoverColor: var(--text-color-secondary);
 
 /// Border radius of a paginator element
 /// @group data
-$paginatorElementBorderRadius: $borderRadius;
+$paginatorElementBorderRadius: 50%;
 
 /// Margin of a paginator element
 /// @group data
-$paginatorElementMargin: .143rem;
+$paginatorElementMargin: 2px;
 
 /// Padding of a paginator element
 /// @group data

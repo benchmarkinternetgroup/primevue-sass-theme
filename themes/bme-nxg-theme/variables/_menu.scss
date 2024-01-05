@@ -76,35 +76,35 @@ $menuitemIconHoverColor: var(--text-color);
 
 /// Background of a menuitem in hover state
 /// @group menu
-$menuitemHoverBg: var(--primary-color-surface);
+$menuitemHoverBg: var(--success-color-background);
 
 /// Text color of a menuitem in focus state
 /// @group menu
-$menuitemTextFocusColor: var(--surface-ground);
+$menuitemTextFocusColor: var(--text-color);
 
 /// Icon color of a menuitem in focus state
 /// @group menu
-$menuitemIconFocusColor: var(--surface-ground);
+$menuitemIconFocusColor: var(--text-color);
 
 /// Background of a menuitem in focus state
 /// @group menu
-$menuitemFocusBg: var(--surface-ground);
+$menuitemFocusBg: inherit;
 
 /// Text color of a menuitem in active state
 /// @group menu
-$menuitemTextActiveColor: var(--surface-ground);
+$menuitemTextActiveColor: var(--text-color);
 
 /// Icon color of a menuitem in active state
 /// @group menu
-$menuitemIconActiveColor: var(--surface-ground);
+$menuitemIconActiveColor: var(--text-color);
 
 /// Background of a menuitem in active state
 /// @group menu
-$menuitemActiveBg: var(--surface-ground);
+$menuitemActiveBg: var(--primary-color-background);
 
 /// Background of a menuitem in active and focus states
 /// @group menu
-$menuitemActiveFocusBg: var(--primary-color);
+$menuitemActiveFocusBg: var(--primary-color-background);
 
 /// Font size of an icon indicating the item has a submenu
 /// @group menu
