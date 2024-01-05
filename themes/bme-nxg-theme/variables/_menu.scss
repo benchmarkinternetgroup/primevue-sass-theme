@@ -116,7 +116,7 @@ $submenuHeaderMargin: 0;
 
 /// Padding of a submenu header
 /// @group menu
-$submenuHeaderPadding: .75rem 1rem;
+$submenuHeaderPadding: 8px 16px;
 
 /// Background of a submenu header
 /// @group menu
@@ -140,19 +140,19 @@ $overlayMenuBg:$menuBg;
 
 /// Border of an overlay menu
 /// @group menu
-$overlayMenuBorder: 0 none;
+$overlayMenuBorder: 1px solid var(--surface-border);
 
 /// Box shadow of an overlay menu
 /// @group menu
-$overlayMenuShadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);
+$overlayMenuShadow: none;
 
 /// Padding of a vertical menu e.g. tieredmenu, contextmenu
 /// @group menu
-$verticalMenuPadding: .25rem 0;
+$verticalMenuPadding: 0 0;
 
 /// Margin of a menuitem separator
 /// @group menu
-$menuSeparatorMargin: .25rem 0;
+$menuSeparatorMargin: 0 0;
 
 /// Padding of a breadcrumb
 /// @group menu
