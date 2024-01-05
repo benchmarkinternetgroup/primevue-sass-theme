@@ -24,7 +24,7 @@ $highlightBg: $primaryColor;
 
 /// Text color of a highlighted item
 /// @group general
-$highlightTextColor: $primaryTextColor;
+$highlightTextColor: var(--surface-ground);
 
 /// Background of a highlighted item in focus state
 /// @group general
