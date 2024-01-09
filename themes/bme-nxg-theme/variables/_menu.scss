@@ -192,7 +192,7 @@ $horizontalMenuPadding: .5rem;
 
 /// Background of a horizontal menu e.g. menubar
 /// @group menu
-$horizontalMenuBg: #f8f9fa;
+$horizontalMenuBg: var(--surface-ground);
 
 /// Border of a horizontal menu e.g. menubar
 /// @group menu
