@@ -4,7 +4,7 @@ $paginatorBg: var(--surface-ground);
 
 /// Text color of a paginator
 /// @group data
-$paginatorTextColor: $textSecondaryColor;
+$paginatorTextColor: var(--text-color-secondary);
 
 /// Border of a paginator
 /// @group data
@@ -16,7 +16,7 @@ $paginatorBorderWidth: 0;
 
 /// Padding of a paginator
 /// @group data
-$paginatorPadding: .5rem 1rem;
+$paginatorPadding: 16px 16px;
 
 /// Width of a paginator element
 /// @group data
@@ -36,11 +36,11 @@ $paginatorElementBorder: 0 none;
 
 /// Icon color of a paginator element
 /// @group data
-$paginatorElementIconColor: $textSecondaryColor;
+$paginatorElementIconColor: var(--text-color-secondary);
 
 /// Background of a paginator element in hover state
 /// @group data
-$paginatorElementHoverBg: #e9ecef;
+$paginatorElementHoverBg: var(--primary-color-surface);
 
 /// Border color of a paginator element in hover state
 /// @group data
@@ -48,15 +48,15 @@ $paginatorElementHoverBorderColor: transparent;
 
 /// Icon color of a paginator element in hover state
 /// @group data
-$paginatorElementIconHoverColor: $textSecondaryColor;
+$paginatorElementIconHoverColor: var(--text-color-secondary);
 
 /// Border radius of a paginator element
 /// @group data
-$paginatorElementBorderRadius: $borderRadius;
+$paginatorElementBorderRadius: 50%;
 
 /// Margin of a paginator element
 /// @group data
-$paginatorElementMargin: .143rem;
+$paginatorElementMargin: 2px;
 
 /// Padding of a paginator element
 /// @group data
@@ -64,7 +64,7 @@ $paginatorElementPadding: 0;
 
 /// Border of a table header
 /// @group data
-$tableHeaderBorder: 1px solid #e9ecef;
+$tableHeaderBorder: 1px solid var(--surface-border);
 
 /// Border width of a table header
 /// @group data
@@ -72,11 +72,11 @@ $tableHeaderBorderWidth: 0 0 1px 0;
 
 /// Background of a table header
 /// @group data
-$tableHeaderBg: #f8f9fa;
+$tableHeaderBg: var(--primary-color-surface);
 
 /// Text color of a table header
 /// @group data
-$tableHeaderTextColor: $textColor;
+$tableHeaderTextColor: var(--text-color);
 
 /// Font weight of a table header
 /// @group data
@@ -84,11 +84,11 @@ $tableHeaderFontWeight: 600;
 
 /// Padding of a table header, must be defined with a shorthand for vertical and horizontal values e.g. ".5rem .5rem"
 /// @group data
-$tableHeaderPadding: 1rem 1rem;
+$tableHeaderPadding: 16px 16px;
 
 /// Padding of a table header cell, must be defined with a shorthand for vertical and horizontal values e.g. ".5rem .5rem"
 /// @group data
-$tableHeaderCellPadding: 1rem 1rem;
+$tableHeaderCellPadding: 17px 16px;
 
 /// Background of a table header cell
 /// @group data
@@ -120,11 +120,11 @@ $tableHeaderCellTextHoverColor: $textColor;
 
 /// Icon color of a table header cell
 /// @group data
-$tableHeaderCellIconColor: $textSecondaryColor;
+$tableHeaderCellIconColor: var(--text-color-secondary);
 
 /// Icon color of a table header cell in hover state
 /// @group data
-$tableHeaderCellIconHoverColor: $textSecondaryColor;
+$tableHeaderCellIconHoverColor: var(--text-color-secondary);
 
 /// Background of a table header cell in sorted state
 /// @group data
@@ -132,11 +132,11 @@ $tableHeaderCellHighlightBg:#f8f9fa;
 
 /// Text color of a table header cell in sorted state
 /// @group data
-$tableHeaderCellHighlightTextColor:$primaryColor;
+$tableHeaderCellHighlightTextColor:var(--text-color-secondary);
 
 /// Hover background of a table header cell in sorted state
 /// @group data
-$tableHeaderCellHighlightHoverBg:#e9ecef;
+$tableHeaderCellHighlightHoverBg:var(--primary-color-background);
 
 /// Hover text color of a table header cell in sorted state
 /// @group data
@@ -168,7 +168,7 @@ $tableBodyRowTextHoverColor: $textColor;
 
 /// Border for a cell of a table toby row
 /// @group data
-$tableBodyCellBorder: 1px solid rgba(0,0,0,0.08);
+$tableBodyCellBorder: 1px solid var(--surface-border);
 
 /// Border width for a cell of a table toby row
 /// @group data
@@ -176,11 +176,11 @@ $tableBodyCellBorderWidth: 0 0 1px 0;
 
 /// Padding for a cell of a table toby row, must be defined with a shorthand for vertical and horizontal values e.g. ".5rem .5rem"
 /// @group data
-$tableBodyCellPadding: 1rem 1rem;
+$tableBodyCellPadding: 8px 16px;
 
 /// Padding of a table footer cell, must be defined with a shorthand for vertical and horizontal values e.g. ".5rem .5rem"
 /// @group data
-$tableFooterCellPadding: 1rem 1rem;
+$tableFooterCellPadding: 16px 16px;
 
 /// Background of a table footer cell
 /// @group data
@@ -231,7 +231,7 @@ $tableFooterFontWeight: 600;
 
 /// Padding of a table footer, must be defined with a shorthand for vertical and horizontal values e.g. ".5rem .5rem"
 /// @group data
-$tableFooterPadding: 1rem 1rem;
+$tableFooterPadding: 16px 16px;
 
 /// Content alignment of a table cell
 /// @group data

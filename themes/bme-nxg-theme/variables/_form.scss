@@ -12,11 +12,11 @@ $inputTextFontSize: 1rem;
 
 /// Text color of an input field
 /// @group form
-$inputTextColor: $textColor;
+$inputTextColor: var(--text-color);
 
 /// Color of an icon inside an input field
 /// @group form
-$inputIconColor: $textColor;
+$inputIconColor: var(--text-color);
 
 /// Border of an input field
 /// @group form
@@ -64,7 +64,7 @@ $inputGroupAddOnMinWidth: 2.357rem;
 
 /// Background of an input list such as dropdown, listbox, multiselect
 /// @group form
-$inputListBg: #ffffff;
+$inputListBg: var(--surface-ground);
 
 /// Text color of an input list
 /// @group form
@@ -88,23 +88,23 @@ $inputListItemBg: transparent;
 
 /// Text color for an individual itrem of an input list
 /// @group form
-$inputListItemTextColor: $textColor;
+$inputListItemTextColor: var(--text-color);
 
 /// Hover state background for an individual itrem of an input list
 /// @group form
-$inputListItemHoverBg: #e9ecef;
+$inputListItemHoverBg: var(--success-color-background);
 
 /// Hover state text color for an individual itrem of an input list
 /// @group form
-$inputListItemTextHoverColor: $textColor;
+$inputListItemTextHoverColor: var(--text-color);
 
 /// Focus state background for an individual itrem of an input list
 /// @group form
-$inputListItemFocusBg: #f8f9fa;
+$inputListItemFocusBg: var(--surface-ground);
 
 /// Focus state text color for an individual itrem of an input list
 /// @group form
-$inputListItemTextFocusColor: $textColor;
+$inputListItemTextFocusColor: var(--text-color);
 
 /// Border for an individual itrem of an input list
 /// @group form
@@ -136,7 +136,7 @@ $inputListHeaderBg: #f8f9fa;
 
 /// Text color for a header of an input list
 /// @group form
-$inputListHeaderTextColor: $textColor;
+$inputListHeaderTextColor: var(--text-color);
 
 /// Border for a header of an input list
 /// @group form
@@ -145,11 +145,11 @@ $inputListHeaderBorder: 0 none;
 
 /// Background for an overlay of an input such as autocomplete or dropdown
 /// @group form
-$inputOverlayBg:$inputListBg;
+$inputOverlayBg:var(--surface-ground);
 
 /// Background for an overlay header of an input such as autocomplete or dropdown
 /// @group form
-$inputOverlayHeaderBg:$inputListHeaderBg;
+$inputOverlayHeaderBg:var(--surface-ground);
 
 /// Border for an overlay of an input such as autocomplete or dropdown
 /// @group form
@@ -413,7 +413,7 @@ $calendarCellDateBorder:1px solid transparent;
 
 /// Background of a calendar date cell in hover state
 /// @group form
-$calendarCellDateHoverBg: #e9ecef;
+$calendarCellDateHoverBg: var(--primary-color-surface);
 
 /// Background of a calendar date cell indicating today
 /// @group form

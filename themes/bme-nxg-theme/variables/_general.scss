@@ -20,15 +20,15 @@ $textSecondaryColor: #6c757d;
 
 /// Background of a highlighted item
 /// @group general
-$highlightBg: $primaryColor;
+$highlightBg: var(--primary-color-background);
 
 /// Text color of a highlighted item
 /// @group general
-$highlightTextColor: $primaryTextColor;
+$highlightTextColor: var(--text-color);
 
 /// Background of a highlighted item in focus state
 /// @group general
-$highlightFocusBg: $primaryColor !default;
+$highlightFocusBg: var(--primary-color-background);
 
 /// Radius of the corners
 /// @group general

@@ -40,15 +40,15 @@ $menuWidth: 12.5rem;
 
 /// Background of a menu
 /// @group menu
-$menuBg: #ffffff;
+$menuBg: var(--surface-ground);
 
 /// Border of a menu
 /// @group menu
-$menuBorder: 1px solid #dee2e6;
+$menuBorder: 1px solid var(--surface-border);
 
 /// Text color of a menu
-/// @group menu
-$menuTextColor: $textColor;
+/// @group
+$menuTextColor: var(--text-color);
 
 /// Padding of a menuitem
 /// @group menu
@@ -60,51 +60,51 @@ $menuitemBorderRadius: 0;
 
 /// Text color of a menuitem
 /// @group menu
-$menuitemTextColor: $textColor;
+$menuitemTextColor: var(--text-color);
 
 /// Icon color of a menuitem
 /// @group menu
-$menuitemIconColor: $textSecondaryColor;
+$menuitemIconColor: var(--text-color);
 
 /// Text color of a menuitem in hover state
 /// @group menu
-$menuitemTextHoverColor: $textColor;
+$menuitemTextHoverColor: var(--text-color);
 
 /// Icon color of a menuitem in hover state
 /// @group menu
-$menuitemIconHoverColor: $textSecondaryColor;
+$menuitemIconHoverColor: var(--text-color);
 
 /// Background of a menuitem in hover state
 /// @group menu
-$menuitemHoverBg: #e9ecef;
+$menuitemHoverBg: var(--success-color-background);
 
 /// Text color of a menuitem in focus state
 /// @group menu
-$menuitemTextFocusColor: $textColor;
+$menuitemTextFocusColor: var(--text-color);
 
 /// Icon color of a menuitem in focus state
 /// @group menu
-$menuitemIconFocusColor: $textColor;
+$menuitemIconFocusColor: var(--text-color);
 
 /// Background of a menuitem in focus state
 /// @group menu
-$menuitemFocusBg: #f8f9fa;
+$menuitemFocusBg: inherit;
 
 /// Text color of a menuitem in active state
 /// @group menu
-$menuitemTextActiveColor: $textColor;
+$menuitemTextActiveColor: var(--text-color);
 
 /// Icon color of a menuitem in active state
 /// @group menu
-$menuitemIconActiveColor: $textSecondaryColor;
+$menuitemIconActiveColor: var(--text-color);
 
 /// Background of a menuitem in active state
 /// @group menu
-$menuitemActiveBg: #e9ecef;
+$menuitemActiveBg: var(--primary-color-background);
 
 /// Background of a menuitem in active and focus states
 /// @group menu
-$menuitemActiveFocusBg: #e9ecef;
+$menuitemActiveFocusBg: var(--primary-color-background);
 
 /// Font size of an icon indicating the item has a submenu
 /// @group menu
@@ -116,7 +116,7 @@ $submenuHeaderMargin: 0;
 
 /// Padding of a submenu header
 /// @group menu
-$submenuHeaderPadding: .75rem 1rem;
+$submenuHeaderPadding: 8px 16px;
 
 /// Background of a submenu header
 /// @group menu
@@ -140,19 +140,19 @@ $overlayMenuBg:$menuBg;
 
 /// Border of an overlay menu
 /// @group menu
-$overlayMenuBorder: 0 none;
+$overlayMenuBorder: 1px solid var(--surface-border);
 
 /// Box shadow of an overlay menu
 /// @group menu
-$overlayMenuShadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);
+$overlayMenuShadow: none;
 
 /// Padding of a vertical menu e.g. tieredmenu, contextmenu
 /// @group menu
-$verticalMenuPadding: .25rem 0;
+$verticalMenuPadding: 0 0;
 
 /// Margin of a menuitem separator
 /// @group menu
-$menuSeparatorMargin: .25rem 0;
+$menuSeparatorMargin: 0 0;
 
 /// Padding of a breadcrumb
 /// @group menu
@@ -192,7 +192,7 @@ $horizontalMenuPadding: .5rem;
 
 /// Background of a horizontal menu e.g. menubar
 /// @group menu
-$horizontalMenuBg: #f8f9fa;
+$horizontalMenuBg: var(--surface-ground);
 
 /// Border of a horizontal menu e.g. menubar
 /// @group menu
