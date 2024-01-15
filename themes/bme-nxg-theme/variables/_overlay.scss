@@ -56,12 +56,12 @@ $confirmPopupFooterPadding:0 1rem 1rem 1rem;
 
 /// Background of a tooltip
 /// @group overlay
-$tooltipBg: $textColor;
+$tooltipBg: var(--text-color);
 
 /// Text color of a tooltip
 /// @group overlay
-$tooltipTextColor: #ffffff;
+$tooltipTextColor: var(--surface-ground);
 
 /// Padding of a tooltip
 /// @group overlay
-$tooltipPadding: $inputPadding;
+$tooltipPadding: 10.5px;
