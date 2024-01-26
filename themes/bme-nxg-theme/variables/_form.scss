@@ -92,7 +92,7 @@ $inputListItemTextColor: var(--text-color);
 
 /// Hover state background for an individual itrem of an input list
 /// @group form
-$inputListItemHoverBg: var(--success-color-background);
+$inputListItemHoverBg: var(--primary-color-surface);
 
 /// Hover state text color for an individual itrem of an input list
 /// @group form
@@ -157,7 +157,7 @@ $inputOverlayBorder: 0 none;
 
 /// Shadow for an overlay of an input such as autocomplete or dropdown
 /// @group form
-$inputOverlayShadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+$inputOverlayShadow: none;
 
 /// Width of a checkbox
 /// @group form
@@ -417,11 +417,11 @@ $calendarCellDateHoverBg: var(--primary-color-surface);
 
 /// Background of a calendar date cell indicating today
 /// @group form
-$calendarCellDateTodayBg: #ced4da;
+$calendarCellDateTodayBg: transparent;
 
 /// Border color of a calendar date cell indicating today
 /// @group form
-$calendarCellDateTodayBorderColor: transparent;
+$calendarCellDateTodayBorderColor: var(--surface-border);
 
 /// Text color of a calendar date cell indicating today
 /// @group form
@@ -429,7 +429,7 @@ $calendarCellDateTodayTextColor: var(--text-color);
 
 /// Padding of the calendar button bar
 /// @group form
-$calendarButtonBarPadding: 1rem 0;
+$calendarButtonBarPadding: 8px 0;
 
 /// Padding of a time picker container of a calendar
 /// @group form
