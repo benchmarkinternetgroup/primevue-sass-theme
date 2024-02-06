@@ -40,11 +40,11 @@ $dialogContentPadding: 24px;
 
 /// Border of a dialog footer
 /// @group overlay
-$dialogFooterBorder: 1px solid #dee2e6;
+$dialogFooterBorder: 1px solid var(--surface-border);
 
 /// Padding of a dialog footer
 /// @group overlay
-$dialogFooterPadding: 0 24px 24px 24px;
+$dialogFooterPadding: 16px 24px 24px 24px;
 
 /// Padding of a confirmpopup content
 /// @group overlay
