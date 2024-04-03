@@ -68,7 +68,7 @@ $disabledOpacity: .3;
 
 /// Background of the modal layer
 /// @group general
-$maskBg: rgba(0, 0, 0, 0.4);
+$maskBg: var(--maskbg);
 
 /// Font size of the loading icons
 /// @group general
