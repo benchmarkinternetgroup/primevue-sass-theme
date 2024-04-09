@@ -172,15 +172,15 @@ $tabviewHeaderSpacing: 0;
 
 /// Border of a tabview header
 /// @group panel
-$tabviewHeaderBorder: solid var(--surface);
+$tabviewHeaderBorder: solid var(--surface-border);
 
 /// Border width of a tabview header
 /// @group panel
-$tabviewHeaderBorderWidth: 0 0 2px 0;
+$tabviewHeaderBorderWidth: 0 0 1px 0;
 
 /// Border color of a tabview header
 /// @group panel
-$tabviewHeaderBorderColor: transparent transparent var(--surface) transparent;
+$tabviewHeaderBorderColor: transparent transparent var(--surface-border) transparent;
 
 /// Background of a tabview header
 /// @group panel
@@ -208,11 +208,11 @@ $tabviewHeaderHoverBg: var(--surface-ground);
 
 /// Border of a tabview header in hover state
 /// @group panel
-$tabviewHeaderHoverBorderColor: var(--surface-border);
+$tabviewHeaderHoverBorderColor: var(--secondary-color);
 
 /// Text color of a tabview header in hover state
 /// @group panel
-$tabviewHeaderTextHoverColor: var(--text-color);
+$tabviewHeaderTextHoverColor: var(--primary-color);
 
 /// Background of a tabview header in selected state
 /// @group panel
