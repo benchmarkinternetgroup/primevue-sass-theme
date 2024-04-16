@@ -136,7 +136,7 @@ $scrollTopTextColor:#f8f9fa;
 
 /// Background of a skeleton
 /// @group misc
-$skeletonBg:#e9ecef;
+$skeletonBg: var(--surface);
 
 /// Background of a skeleton animation
 /// @group misc
